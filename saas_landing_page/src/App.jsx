@@ -1,7 +1,22 @@
-export default function App() {
+import Header from "./sections/Header.jsx";
+import Hero from "./sections/Hero.jsx";
+
+
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+    <main className="overflow-hidden">
+      <Header />
+      <Hero />
+      
+      
+      
+    
+    
+      
+      
+    </main>
+  );
+};
+
+export default App;
