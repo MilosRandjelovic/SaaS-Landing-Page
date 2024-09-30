@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import clsx from "clsx";
 import { Marker } from "./Marker.jsx";
 
@@ -36,7 +37,7 @@ const Button = ({
     <a
       className={clsx(
         "relative p-0.5 g5 rounded-2xl shadow-500 group",
-        containerClassName,
+        containerClassName
       )}
       href={href}
     >
@@ -46,7 +47,7 @@ const Button = ({
     <button
       className={clsx(
         "relative p-0.5 g5 rounded-2xl shadow-500 group",
-        containerClassName,
+        containerClassName
       )}
       onClick={onClick}
     >

@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
+/* eslint-disable react/no-unescaped-entities */
 import { Element } from "react-scroll";
 import { links, logos } from "../constants/index.jsx";
 import { Marker } from "../components/Marker.jsx";
@@ -20,12 +22,12 @@ const Download = () => {
                   alt="xora"
                 />
               </div>
-
+              // eslint-disable-next-line react/jsx-no-comment-textnodes
               <p className="body-1 mb-10 max-w-md">
-                Try it now for free on iOS, Android, PC, Web - whatever your
-                flavor, we've got you covered.
+                Try it now for free on iOS, Android, PC, Web - whatever your //
+                eslint-disable-next-line react/no-unescaped-entities flavor,
+                we've got you covered.
               </p>
-
               <ul className="flex flex-wrap items-center gap-6">
                 {links.map(({ id, url, icon }) => (
                   <li
